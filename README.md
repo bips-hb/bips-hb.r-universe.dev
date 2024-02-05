@@ -9,7 +9,7 @@ Aside from the discoverability bonus (see e.g. the [R-universe landing page](htt
 You can continue to install e.g. the CRAN version of [arf](https://github.com/bips-hb/arf) like this:
 
 ```r
-install.packages("arf"z)
+install.packages("arf")
 ```
 
 Or you can install the current development version from GitHub and built by R-universe like this:
