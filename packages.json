@@ -1,0 +1,48 @@
+[
+  // CRAN packages first
+  {
+    "package": "arf",
+    "url": "https://github.com/bips-hb/arf"
+  },
+  {
+    "package": "blockForest",
+    "url": "https://github.com/bips-hb/blockForest"
+  },
+  {
+    "package": "cpi",
+    "url": "https://github.com/bips-hb/cpi"
+  },
+  {
+    "package": "innsight",
+    "url": "https://github.com/bips-hb/innsight"
+  },
+  {
+    "package": "micd",
+    "url": "https://github.com/bips-hb/micd"
+  },
+  {
+    "package": "neuralnet",
+    "url": "https://github.com/bips-hb/neuralnet"
+  },
+  {
+    "package": "survnet",
+    "url": "https://github.com/bips-hb/survnet"
+  },
+  {
+    "package": "tpc",
+    "url": "https://github.com/bips-hb/tpc"
+  },
+  // Not on CRAN
+  {
+    "package": "batchlasso",
+    "url": "https://github.com/bips-hb/batchlasso"
+  },
+  {
+    "package": "pvm",
+    "url": "https://github.com/bips-hb/pvm"
+  },
+  {
+    "package": "srsim",
+    "url": "https://github.com/bips-hb/srsim"
+  }
+]
