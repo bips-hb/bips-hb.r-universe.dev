@@ -38,6 +38,10 @@
     "url": "https://github.com/bips-hb/batchlasso"
   },
   {
+    "package": "CVN",
+    "url": "https://github.com/bips-hb/CVN"
+  },
+  {
     "package": "pvm",
     "url": "https://github.com/bips-hb/pvm"
   },
