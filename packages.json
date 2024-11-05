@@ -42,11 +42,19 @@
     "url": "https://github.com/bips-hb/CVN"
   },
   {
+    "package": "expard",
+    "url": "https://github.com/bips-hb/expard"
+  },
+  {
     "package": "pvm",
     "url": "https://github.com/bips-hb/pvm"
   },
   {
     "package": "SRSim",
     "url": "https://github.com/bips-hb/srsim"
+  },
+  {
+    "package": "wflsa",
+    "url": "https://github.com/bips-hb/wflsa"
   }
 ]
