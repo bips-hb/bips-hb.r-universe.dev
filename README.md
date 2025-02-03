@@ -1,9 +1,7 @@
 # bips-hb.r-universe.dev
 
-This contains the index for the [r-universe repository](https://bips-hb.r-universe.dev/builds).
-
-The R-universe project provides an alternative package repository ecosystem including automated package builds and checks outside of the familiar CRAN or BioConductor infrastructure.
-
+This contains the index for the [r-universe repository](https://bips-hb.r-universe.dev/builds).  
+The R-universe project provides an alternative package repository ecosystem including automated package builds and checks outside of the familiar CRAN or BioConductor infrastructure.  
 Aside from the discoverability bonus (see e.g. the [R-universe landing page](https://r-universe.dev/)), the additional build system also allows package installation via `install.packages()`:
 
 You can continue to install e.g. the CRAN version of [arf](https://github.com/bips-hb/arf) like this:
@@ -50,3 +48,11 @@ install.packages("arf", repos = "https://cloud.r-project.org/")
 ```
 
 ...which is why it may not be desirable to add the repository to your global `repos`.
+
+## Maintainign this universe
+
+See [the r-universe docs](https://docs.r-universe.dev/publish/set-up.html) for the general setup procedure.
+
+To add new packages, edit [`packages.json`](packages.json) accordingly (make sure it's syntacically valid JSON).  
+For CRAN packages, [this should not be necessary](https://docs.r-universe.dev/publish/set-up.html#populating-the-packages.json-registry-file), 
+but for completeness it is likely a good idea to keep track of packages anyway.
