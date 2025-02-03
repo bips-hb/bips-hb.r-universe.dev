@@ -32,6 +32,10 @@
     "package": "tpc",
     "url": "https://github.com/bips-hb/tpc"
   },
+  {
+    "package": "HMMpa",
+    "url": "https://github.com/bips-hb/HMMpa"
+  },
   // Not on CRAN
   {
     "package": "batchlasso",
