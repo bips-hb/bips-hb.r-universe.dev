@@ -18,7 +18,7 @@ install.packages("arf", repos = "https://bips-hb.r-universe.dev")
 
 Note that
 
-1. You do not need to use `remotes::instal_github()` or similar solutions
+1. You do not need to use `remotes::install_github()` or similar solutions
 2. This will install a binary package that does not require compilation on Windows, macOS, and as of [November '23, also WASM binaries](https://ropensci.org/blog/2023/11/17/runiverse-wasm/).
 
 The WASM binaries are for use with [webR](https://docs.r-wasm.org/webr/latest/) to run R in the browser.
@@ -49,10 +49,10 @@ install.packages("arf", repos = "https://cloud.r-project.org/")
 
 ...which is why it may not be desirable to add the repository to your global `repos`.
 
-## Maintainign this universe
+## Maintaining this universe
 
 See [the r-universe docs](https://docs.r-universe.dev/publish/set-up.html) for the general setup procedure.
 
-To add new packages, edit [`packages.json`](packages.json) accordingly (make sure it's syntacically valid JSON).  
-For CRAN packages, [this should not be necessary](https://docs.r-universe.dev/publish/set-up.html#populating-the-packages.json-registry-file), 
-but for completeness it is likely a good idea to keep track of packages anyway.
+To add new packages, edit [`packages.json`](packages.json) accordingly (make sure it's syntactically valid JSON).  
+For CRAN packages, [adding them here should not be necessary](https://docs.r-universe.dev/publish/set-up.html#populating-the-packages.json-registry-file), 
+but for completeness it is likely a good idea to keep track of packages anyway, in particular if you want to make development versions accessible more easily.
