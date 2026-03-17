@@ -46,8 +46,20 @@
         "url": "https://github.com/bips-hb/CVN"
     },
     {
+        "package": "dsDashboard",
+        "url": "https://github.com/bips-hb/dsDashboard"
+    },
+    {
         "package": "expard",
         "url": "https://github.com/bips-hb/expard"
+    },
+    {
+        "package": "ggiraphAlluvial",
+        "url": "https://github.com/bips-hb/ggiraphAlluvial"
+    },
+    {
+        "package": "IDEFICS_scalc",
+        "url": "https://github.com/bips-hb/IDEFICS_scalc"
     },
     {
         "package": "pvm",
